@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    max-width: 640px;
+    margin: 2rem auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+}
+.card img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.card h2
+.card h3{
+    margin: 0 0 0.25rem;
+
+}
+.card p{
+    margin: 0;
+    color: #555;
+}
+#load-btn{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+}
+#load-btn:disabled{
+    cursor: not not-allowed;
+    opacity: 0.6;
+}
+#status{
+    min-height: 1.2rem;
+    color:#b00020;
+
+}
+#user-list{
+    display: grid;
+    gap:0.75rem;
+}

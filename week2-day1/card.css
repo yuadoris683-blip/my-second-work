@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(195, 221, 230);
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 20px;
+
+}
+header{
+    padding: 30px;
+    
+
+
+}
+.hero{
+     padding: 30px;
+    
+
+
+}
+.goals{
+      padding: 30px;
+    
+
+
+}
+.links{
+       padding: 30px;
+    
+
+
+}
+.contact{
+       padding: 30px;
+    
+
+
+}

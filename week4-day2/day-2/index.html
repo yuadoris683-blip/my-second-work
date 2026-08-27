@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Day 10 - Random User Directory</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <h1>Random User Directory</h1>
+
+    <!-- This card is hardcoded with placeholder content on purpose - a real
+         network request finishes, instead of creating something from scratch. -->
+
+    <section id="featured-card" class="card">
+        <img id="featured-photo" src="https://placehold.co/128" alt="Featured user photo">
+
+        <div>
+            <h2 id="featured-name">Loading featured user...</h2>
+            <p id="featured-email">—</p>
+        </div>
+    </section>
+
+    <button id="load-btn">Load 1 Random Users</button>
+    <p id="status"></p>
+    <div id="user-list"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
