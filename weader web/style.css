@@ -166,14 +166,17 @@ main {
 
     .hero-section {
         padding: 20px;
+        flex-direction: column;
     }
 
     .search-bar {
-        width: 90%;
+        display: block;
+        width: 50%;
     }
 
     nav ul {
         gap: 15px;
+        flex-direction: column;
     }
 }
 
